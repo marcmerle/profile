@@ -1,0 +1,102 @@
+body {
+  background-color: #edf7fa;
+  font-family: 'Open Sans', sans-serif;
+  color: #5f6caf;
+  font-size: 12px;
+}
+
+
+h1, h2 {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #ffb677;
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+
+h2 {
+  color: #ff8364;
+  font-size: 20px;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.card-center {
+  text-align: center;
+  background: white;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px lightgrey;
+}
+
+#footer {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: #ff8364;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.button:hover {
+  background-color: #ffb677;
+}
+
+#footer a {
+  text-align: center;
+  color: #5f6caf;
+}
+
+.list-inline > li{
+  display: inline-block;
+  font-size: 40px;
+  padding: 5px;
+  color: lightgrey;
+}
+
+.send-to-form {
+  color: #ff8364;
+  text-decoration: none;
+}
+
+.sen-to-form:hover {
+  color: #5f6caf;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
